@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("fonts/Inter-Regular.otf");
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url("fonts/Karla-Bold.ttf");
+}
+
 body {
     margin: 0;
     
@@ -20,6 +30,27 @@ body {
 #boxLeft {
     left: 62px;
     top: 64px;
+}
+
+h1 {
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+
+}
+
+h2 {
+    font-family: 'Inter';
+    color: #FFFFFF;
 }
 
 .btn {

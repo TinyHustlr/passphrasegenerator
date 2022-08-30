@@ -4,7 +4,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 
 // Get h1 element
-let pass = document.querySelector("h1")
+let pass1 = document.querySelector("passOne")
 
 // Create two 12 word pass phrases
 function getPass() {
@@ -20,7 +20,7 @@ function getPass() {
 // executes and loops through getPass function twice adding a 2 new lines each time   
 for (p = 0; p < 2; p++) { 
 getPass()
-pass.innerHTML += "<br /><br />"
+pass1.innerHTML += "<br /><br />"
 }
 
 
