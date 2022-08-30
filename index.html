@@ -6,11 +6,14 @@
         
     <div id="background">
         <div id="boxLeft" class="box"></div>
-        <h1>Generate a<br> random password</h1>
+        <h1><span class="colorwhite">Generate a</span><br><span class="colorgreen">random password</span></h1>
         <h2>Never use an insecure password again.</h2>
-        <button id="passBtn" class="btn">Generate Passwords</button>
-        <div id="passOne" class="passBox"></div>'
-        <div id="passTwo" class="passBox"></div>'
+        <button id="passBtn" onclick="generatePass()">Generate Passwords</button>
+        <div id="lineBreak"></div>
+        <div id="passBoxOne" class="passBox"></div>
+        <div id="passBoxTwo" class="passBox"></div>
+        <h3 id="passOne"></h3>
+        <h3 id="passTwo"></h3>
     </div>
         <script src="index.js"></script>
     </body>

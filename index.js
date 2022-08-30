@@ -4,23 +4,26 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 
 // Get h1 element
-let pass1 = document.querySelector("passOne")
+let pass1 = document.querySelector("#passOne")
+let pass2 = document.querySelector("#passTwo")
 
 // Create two 12 word pass phrases
 function getPass() {
-    
-        
+         
 // loops through randomIndex 12 times to pull 12 words from array
-        for (i = 0; i < 12; i++) {
-        let randomIndex = Math.floor( Math.random() * characters.length )
-        pass.innerHTML += characters[randomIndex]  
+        for (i = 0; i < 15; i++) {
+        let randomIndex1 = Math.floor( Math.random() * characters.length )
+        let randomIndex2 = Math.floor( Math.random() * characters.length )
+        pass1.innerHTML += characters[randomIndex1]
+        pass2.innerHTML += characters[randomIndex2]  
         }   
     }
     
 // executes and loops through getPass function twice adding a 2 new lines each time   
-for (p = 0; p < 2; p++) { 
-getPass()
-pass1.innerHTML += "<br /><br />"
-}
 
+function generatePass() {
+    pass1.textContent = ""
+    pass2.textContent = ""
+    getPass()
+}
 
