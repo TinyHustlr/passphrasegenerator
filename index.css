@@ -96,7 +96,7 @@ button {
     width: 191px;
     height: 42px;
     left: 114px;
-    top: 530px;
+    top: 569px;
 }
 
 
@@ -111,7 +111,6 @@ button {
     height: 39px;
     left: 114px;
     top: 460px;
-    
 }
 
 #passBoxTwo {
@@ -120,6 +119,14 @@ button {
     height: 39px;
     left: 349px;
     top: 460px;
+}
+
+#seedBox {
+    position: absolute;
+    width: 441px;
+    height: 70px;
+    left: 114px;
+    top: 681px;
 }
 
 h3 {
@@ -167,5 +174,15 @@ h3 {
 #lineBreakTwo {
     position: absolute;
     left: 114px;
-    top: 600px;
+    top: 646px;
+}
+
+#seedPhrase {
+    position: absolute;
+    width: 192px;
+    height: 32px;
+    left: 37px;
+    top: 653px;
+    margin: 0;
+    padding: 0;
 }
