@@ -7,10 +7,12 @@ const words = ["reduce", "reference", "freight", "dentist", "punish", "workshop
 
 
 // Get h1 element
+let passwordBtn = document.querySelector("#passBtn")
+let seedPhraseBtn = document.querySelector("#seedBtn")
 let pass1 = document.querySelector("#passOne")
 let pass2 = document.querySelector("#passTwo")
 let seed = document.querySelector("#seedPhrase")
-console.log(seed)
+
 
 // Create two 12 word pass phrases
 function getPass() {
@@ -26,11 +28,11 @@ function getPass() {
     
 // executes and loops through getPass function twice adding a 2 new lines each time   
 
-function generatePass() {
+passwordBtn.addEventListener("click", function generatePass() {
     pass1.textContent = ""
     pass2.textContent = ""
     getPass()
-}
+})
 
 // Create two 12 word pass phrases
 function getSeed() {
@@ -43,8 +45,8 @@ function getSeed() {
         }   
 }
     
-    function generateSeed() {
+seedPhraseBtn.addEventListener("click", function generateSeed() {
         seed.textContent = ""
         getSeed()
-}
+})
 
