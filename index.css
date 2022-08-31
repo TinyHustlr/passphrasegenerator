@@ -15,14 +15,14 @@ body {
 
 #background {
     width: 674px;
-    height: 678px;
+    height: 800px;
     background: #1C1C1C;
 }
 
 .box {
     position: absolute;
     width: 550px;
-    height: 550px;
+    height: 700px;
     background: #1F2937;
     border-radius: 6px;
     
@@ -72,10 +72,7 @@ h2 {
 
 button {
     position: absolute;
-    width: 191px;
-    height: 42px;
-    left: 114px;
-    top: 348px;
+    
     background: #10B981;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border: none;
@@ -87,6 +84,21 @@ button {
     line-height: 24px;
     color: #FFFFFF;
 }
+
+#passBtn {
+    width: 191px;
+    height: 42px;
+    left: 114px;
+    top: 348px;
+}
+
+#seedBtn {
+    width: 191px;
+    height: 42px;
+    left: 114px;
+    top: 530px;
+}
+
 
 .passBox {
     background: #273549;
@@ -140,11 +152,20 @@ h3 {
     padding: 0;
 }
 
-#lineBreak {
-    position: absolute;
+.lineBreak {
+    border: 1px solid #2F3E53;
     width: 446px;
     height: 0px;
+}
+
+#lineBreakOne {
+    position: absolute;
     left: 114px;
     top: 425px;
-    border: 1px solid #2F3E53;
+}
+
+#lineBreakTwo {
+    position: absolute;
+    left: 114px;
+    top: 600px;
 }
